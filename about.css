@@ -1,0 +1,63 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+:root {
+    --primary-color: rgb(233, 202, 7);
+    --secondary-color: rgb(0, 0, 0);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary-color);
+    position: fixed;
+    width: 100%;
+    margin-top: -90px;
+}
+
+.title {
+    font-size: 25px;
+    margin-left: 80px;
+    color: var(--secondary-color);
+}
+
+nav {
+    margin-right: 100px;
+}
+
+nav a {
+    margin: 10px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+main  {
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+
+.images {
+    height: 92.2vh;
+    width: 200%;
+    border: 2px solid black;
+    overflow: hidden;
+    margin-top: -30px;
+}
+
+.images img {
+    height: 100%;
+    
+}
+
+.caption {
+    margin: 40px;
+}
